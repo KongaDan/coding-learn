@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/icon.png" type="png">
+    <title>CodingLearn</title>
+</head>
+<body>
+        <header >
+            <div class="header-title">
+                <a href=""><h1>Coding Learn</h1></a>
+            </div>
+            <div class="header-link">
+                <ul class="link">
+                    <li>References</li>
+                    <li class="cours">Cours <i class="fa-solid fa-chevron-down"></i></li>
+                    <li>PDF</li>
+                    <li>About us</li>
+                </ul>
+            </div>
+            <div class="header-icons">
+                <span class="icons">
+                    <a href="#"><i class="icon fa-solid fa-c"><i class="icon fa-solid fa-l"></i></i></i></a>
+                </span>
+                <span class="toggle-btn ">
+                    <i class="fa-solid fa-bars"></i>
+                </span>
+            </div>
+        </header>
+        <div class="dropdown-menu none">
+            <ul class="link">
+                <li>References</li>
+                <li id="cours-down">Cours<i class="fa-solid fa-chevron-down"></i>
+                    <ul class="link-drop none ">
+                        <li>Python</li>
+                        <li>Html</li>
+                        <li>Css</li>
+                        <li>Javascript</li>
+                        <li>MySql</li>
+                        <li>django</li>
+                    </ul>
+                </li>
+                <li>PDF</li>
+                <li>About us</li>
+            </ul>
+        </div>
+        <div class="dropdown-cours none">
+            <ul class="link ">
+                <li>Python</li>
+                <li>Html</li>
+                <li>Css</li>
+                <li>Javascript</li>
+                <li>MySql</li>
+                <li>django</li>
+            </ul>
+        </div>
+        <main>
+            <div class="started">
+                <div>
+                    <h2 id="title">Apprenez la programmation avec <span class="name">Coding Learn</span></h2>
+                    <div class="description">
+                        Apprenez les bases de la programmation et devenez expert dans votre domaine grace a nos differentes formations gratuites<i class="fa-solid fa-code"> .</i>
+                        Debloquez des nouvelles competences maintenant grace a <span class="name">Coding Learn</span> !
+                    </div>
+                </div>
+                <!--<a href="" id="button-started">Apprendre maintenant</a>-->
+                <div class="started-img">
+                    <img src="img/web-developpement.png"  id="button-started">
+                </div>
+            </div>
+            <h3 id="title-main" >Nos Formations pour devenir un expert</h3>
+            <div class="cards" >
+                
+                <div class="card-single" >
+                    <div class="card-icon">
+                        <i class="fa-brands fa-python"></i>
+                    </div>
+                    <div class="card-info">
+                        <div class="card-head">
+                            Les Bases de python
+                        </div>
+                        <div class="card-body">
+                            Apprenez le bases de python pour debutant
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-single">
+                    <div class="card-icon">
+                        <i class="fa-brands fa-python"></i>
+                    </div>
+                    <div class="card-info">
+                        <div class="card-head">
+                            La programmation Oriente Object avec Python
+                        </div>
+                        <div class="card-body">
+                            Apprenez les concept de la programmation oriente object avec python
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-single">
+                    <div class="card-icon">
+                        <img src="img/django.png" alt="">
+                    </div>
+                    <div class="card-info">
+                        <div class="card-head">
+                            Le developpement Web avec Python
+                        </div>
+                        <div class="card-body">
+                            Debutez dans le developpement Back-end Django grace a Python
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-single">
+                    <div class="card-icon">
+                        <i class="fa-brands fa-html5" id="icon-html"></i>
+                    </div>
+                    <div class="card-info">
+                        <div class="card-head">
+                            Codez vos sites avec HTML5
+                        </div>
+                        <div class="card-body">
+                            Apprenez a coder vos sites web avec HTML5
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="card-single">
+                    <div class="card-icon">
+                        <i class="fa-brands fa-css3-alt" id="icon-css"></i>
+                    </div>
+                    <div class="card-info">
+                        <div class="card-head">
+                            Stylisez vos sites avec CSS3
+                        </div>
+                        <div class="card-body">
+                            Comment ajouter du style a vos pages web grace a CSS3
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-single">
+                    <div class="card-icon">
+                        <i class="fa-brands fa-js" id="icon-js"></i>
+                    </div>
+                    <div class="card-info">
+                        <div class="card-head">
+                            Rendre un site dynamique grace a JavaScript
+                        </div>
+                        <div class="card-body">
+                            Comment dynamiser et ajoutez de l'interaction a vos sites web avec JavaScript
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-single">
+                    <div class="card-icon">
+                        <img src="img/mysql.png" alt="">
+                    </div>
+                    <div class="card-info">
+                            <div class="card-head">
+                                Les bases des donnees avec <span id="my">My</span><span id="sql">Sql</span>
+                            </div>
+                            <div class="card-body">
+                                Requetez une bases des donnees avec des requetes MYSql
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-footer">
+                <div class="footer-img">
+                    <img src="img/web-developpement2.png" alt="">
+                </div>
+                <div class="footer-description">
+                    <h3 class="name">Notre mission</h3>
+                    <div class="description">
+                        Vous aidez a acquerir des connaissances dont vous avez besoin en developpement Web
+                    </div>
+                </div>
+            </div>
+        </main>
+    <script src="script.js"></script>
+</body>
+</html>
